@@ -1,0 +1,230 @@
+<!-- My First Mini Project -->
+<!-- "Span" is an In line tag which is mostly used to edit anything between the text. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- font-family: 'Hind Siliguri', sans-serif; -->
+
+    <!-- Font Awesome (Title's) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="StyleSheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+    
+    <!-- StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+    <!-- Nav-Bar Section: -->
+    <section id="main">
+        
+        <nav>
+            
+             <!--Logo  -->
+            <a href="#">
+                <h1 class="logo-heading">
+                    iam<span class=name >Anser</span>
+                </h1>
+            </a>
+
+            <!-- Menu Button (Responsiveness)-->
+            <input class="Menu-btn" type="button" id="menu-btn">
+            <label class="menu-icon" for="menu-btn">
+                <span class="nav-icon"></span>
+            </label>
+
+             <!-- Menu items -->
+            <ul class="menu">
+                <li><a href= "#home">Home</a></li>
+                <li><a href= "#skills">Skills</a></li>
+                <li><a href= "#my-projects">Projects</a></li>
+                <li><a href= "#clients">Clients</a></li>
+                <li><a href= "#contact">Contact</a></li>
+            </ul>
+
+            <!-- Get in touch button -->
+            <a href="#" class="get-in-touch"> Get In Touch </a>
+
+        </nav>
+
+    </section>
+
+    <!-- Landing Page- Main Section  -->
+    <div class="content">
+        <!-- Adding Code of main section -->
+        
+        <!-- Left Div -->
+        <div class=model>
+            <img class=img alt="Anser Shafiq" src="/Images/pp.jpg">
+        </div>
+        
+        <!-- Right Div -->
+        <div class=main-text>
+            <h1 class="logo-heading">
+                iam <span class=name>Anser</span>
+            </h1>
+            <p>I am Anser i like building web apps.</p>
+            <p>I like to write optimized code.</p>
+            <a href="#" class="portfolio-btn" >Get In Touch</a>
+
+        </div>
+
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills">
+
+        <!-- Adding Skill section code -->
+        <div class=skill-text>
+
+            <div class=skill-heading>
+                <span>My Skills</span>
+                <h2>My Expertise</h2>
+            </div>
+
+            <div class=s-box-container>
+
+                <!-- Skill Box 1 -->
+                <div class=skill-box>
+
+                    <div class=s-box-icon>
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="skill-box-text">
+                        <strong>HTML</strong>
+                        <p>We will write description of skill.</p>
+                    </div>
+
+                </div>
+                <!-- Skill box 2 -->
+                <div class=skill-box>
+
+                    <div class=s-box-icon>
+                        <i class="fab fa-css3"></i>
+                    </div>
+                    <div class="skill-box-text">
+                        <strong>CSS</strong>
+                        <p>We will write description of skill.</p>
+                    </div>
+
+                </div>
+                <!-- Skill box 3 -->
+                <div class=skill-box>
+
+                    <div class=s-box-icon>
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="skill-box-text">
+                        <strong>Python</strong>
+                        <p>We will write description of skill.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="skill-img">
+            <img src="/Images/E-section.png" alt="skills-image">
+        </div>
+    
+    </section>
+
+    <!-- My Projects -->
+    <section id="my-projects">
+        <!-- Add Projects -->
+        <div class="recent-heading">
+            <span>Showcase</span>
+            <h3>My Projects</h3>
+        </div>
+
+        <div class="project-showcase">
+            <!-- Project1 -->
+            <div class="project project1">
+                <div id=hide>
+                    <p class=project-text>Description of project</p>
+                    <a href="#" class=project-btn>Visit Website</a>
+                </div>
+
+            </div>
+            <!-- Project2 -->
+            <div class="project project2">
+                <div id=hide>
+                    <p class=project-text>Description of project</p>
+                    <a href="#" class=project-btn>Visit Website</a>
+                </div>
+
+            </div>
+            <!-- Project3 -->
+            <div class="project project3">
+                <div id=hide>
+                    <p class=project-text>Description of project</p>
+                    <a href="#" class=project-btn>Visit Website</a>
+                </div>
+
+            </div>
+        </div>
+        <a href="#" class="recent-btn">See More Projects</a>
+    </section>
+
+    <!-- Client Section -->
+    <section id="client-section">
+        <!-- Addind Client Section Code -->
+        <!-- <img src="Images/istockphoto-887755698-612x612.jpg" alt="client-section"> -->
+        <h4>Comments</h4>
+       
+        <h3><strong>Clients Testimonial</strong></h3>
+       
+        <div class="dashboard">
+            <div class="client">
+                <img src="Images/boy.png" alt="client" class=pics>
+                <img src="Images/stars.png" alt="rating-star">
+                <p>I think Of Raheels work.......</p>
+                <a href="#" class="recent-btn">Read More</a>
+            </div>
+            <div class="client">
+                <img src="Images/girl.png" alt="client" class=pics>
+                <img src="Images/stars.png" alt="rating-star">
+                <p cl>He is a Good Teacher..........</p>
+                <a href="#" class="recent-btn">Read More</a>
+            </div>
+            <div class="client">
+                <img src="Images/uncle.png" alt="client" class=pics>
+                <img src="Images/stars.png" alt="rating-star">
+                <p>And is a Good leader..........</p>
+                <a href="#" class="recent-btn">Read More</a>
+            </div>
+            
+            
+        </div>
+   
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <!-- Addind Conattc Section Code -->
+        <img src="/Images/contact.jpg" alt="contact-img">
+        <h3>Let's work on <span>projects</span> together</h3>
+        <div class="contact-input">
+            <input type="email" placeholder="john.doe@thedevnation.com">
+            <a href='#'>Let's connect</a>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Footer Code -->
+        <p>iamANSER</p>
+        <p>CopyRight 2021 - Anser Shafiq</p>
+    </footer>
+
+</body>
+</html>
