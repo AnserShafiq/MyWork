@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: rgb(62, 26, 26);
+}
+
+.Head-1{
+    margin-top:3rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.Head-2{
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin-top:3rem;
+}
+.Timer{
+    font-size:5rem;
+    background-color: rgb(38, 23, 23);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 3rem 45rem 0;
+    border: 3px solid rgb(38, 10, 10);
+    border-radius: 1rem;
+}
+.btns{
+    margin:2rem 37rem;
+    justify-content: center;
+}
+.btns button{
+    margin-left:3rem;
+    font-size: 3rem;
+    padding: 0.5rem 1rem;
+    border: 3px solid rgb(38, 10, 10);
+    background-color:  rgb(38, 23, 23);
+    border-radius: 1rem;
+}
+.btns button:hover{
+    color:wheat;
+    background-color: rgb(86, 47, 47);
+    cursor: pointer;
+}
